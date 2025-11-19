@@ -1,0 +1,16 @@
+1)
+i used fork to create a new process from an existing process , the new process is now the child process and the older one is the parent
+2)
+sleep creates a process and does nothing for how many seconds i give it ex.(10,60,100...) 
+3)
+ps aux | grep sleep is a command used to get the PID of the ongoing sleep process
+4)
+pause and resume I'm pretty sure this doesn't need explanation :)
+5)
+in the linker question i modified the name of the function in the first file so i got an error when i tried to compile both files , the role of the linker is to connect the .c files as a single program and the error happened because file 2 couldn't find the name of the function it had in file 1
+6)
+role of the loader is to load the executable file into the memory so the CPU can execute it
+3 shared libraries are used in the program
+linux-vdso.so.1
+libc.so.6
+/lib64/ld-linux-x86-64.so.2
